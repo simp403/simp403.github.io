@@ -5,6 +5,10 @@ hr {
 	 margin-top: 0;
 }
 
+body {
+	padding-bottom: 70px;
+}
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -20,4 +24,43 @@ hr {
 
 .nav a {
 	color: inherit;
+}
+
+.navbar-fixed-bottom .container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+.img-adjust {
+	width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    position: relative;
+}
+
+.img-adjust > img {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+    margin: auto;
+	left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+.property-name {
+	align: center;
+}
+
+.property-address {
+	align: center;
 }
