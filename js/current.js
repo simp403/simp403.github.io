@@ -1,0 +1,3 @@
+$(function () {
+	$('.current-gallery').viewer();
+});

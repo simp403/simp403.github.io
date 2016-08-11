@@ -1,3 +1,4 @@
+// Use JQuery to insert partials as header and footer.
 (function ($, window, document, undefined) {
  
   $(function () {
