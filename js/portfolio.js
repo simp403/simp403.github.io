@@ -1,6 +1,6 @@
 $(function () {
-	$('.gallery1').viewer();
-	$('.gallery2').viewer();
-	$('.gallery3').viewer();
-	$('.gallery4').viewer();
+	$('.portfolio1').viewer();
+	$('.portfolio2').viewer();
+	$('.portfolio3').viewer();
+	$('.portfolio4').viewer();
 });

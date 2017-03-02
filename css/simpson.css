@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 hr {
 	 border: 0;
 	 height: 1px;
@@ -6,8 +11,18 @@ hr {
 }
 
 body {
-	padding-bottom: 70px;
+	margin-bottom: 60px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 60px;
+}
+
+/* Navbar Formatting */
 
 .navbar {
 	margin-bottom: 0;
@@ -26,41 +41,60 @@ body {
 	color: inherit;
 }
 
-.navbar-fixed-bottom .container{
-	padding-left: 0px;
-	padding-right: 0px;
-}
+/* Portfolio Formatting */
 
 .portfolio {
 	text-align: center;
 }
 
+#portfolio-body {
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
 .img-adjust {
-	width: 300px;
-    height: 200px;
+	width: 400px;
+    height: 300px;
     overflow: hidden;
     margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
-	margin-bottom: 15px;
-    position: relative;
+	margin-top: 30px;
+	margin-bottom: 5px;
 }
 
 .img-adjust > img {
-	position: absolute;
-	min-width: 100%;
-	min-height: 100%;
-    margin: auto;
-	left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
+	position: relative;
+	left: 100%;
+    margin-left: -200%;
+	width: auto;
+	height: 100%;
+	object-fit: cover;
+}
+
+.portfolio > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .property-name {
 	align: center;
+	font-weight: bold;
+}
+
+.property-former-name {
+	align: center;
+}
+
+.property-info {
+	align: center;
+	font-weight: bold;
 }
 
 .property-address {
 	align: center;
+}
+
+.property-close {
+	align: center;
+	font-style: italic;
 }
