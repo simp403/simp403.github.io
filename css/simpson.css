@@ -25,7 +25,8 @@ body {
 /* Navbar Formatting */
 
 .navbar {
-	margin-bottom: 0;
+	background-color: #3DD84D;
+	border-color: black;
 }
 
 .nav {
@@ -38,6 +39,7 @@ body {
 }
 
 .nav a {
+	font-weight: bold;
 	color: inherit;
 }
 
@@ -78,11 +80,13 @@ body {
 
 .property-name {
 	align: center;
+	font-size: medium;
 	font-weight: bold;
 }
 
 .property-former-name {
 	align: center;
+	font-size: smaller;
 }
 
 .property-info {
@@ -96,5 +100,6 @@ body {
 
 .property-close {
 	align: center;
+	font-size: small;
 	font-style: italic;
 }
